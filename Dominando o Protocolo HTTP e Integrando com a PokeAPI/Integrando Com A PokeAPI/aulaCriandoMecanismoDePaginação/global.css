@@ -1,0 +1,19 @@
+
+* {
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f6f8fc;
+}
+
+.content {
+    height: 100vh;
+    width: 100vw;
+    padding: 1rem;
+    background-color: #fff;
+}
+
+
+
