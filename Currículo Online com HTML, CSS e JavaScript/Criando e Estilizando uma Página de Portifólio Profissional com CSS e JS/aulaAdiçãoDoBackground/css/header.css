@@ -1,0 +1,57 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.header .photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.header .title {
+    text-align: center;
+}
+
+.information  {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.information p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: .5rem;
+    font-size: 1.125rem;
+}
+
+.information p::before {
+    content: '';
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background-size: contain; /* Adicionado para garantir que a imagem SVG caiba no espaço */
+    background-repeat: no-repeat; /* Adicionado para evitar que a imagem se repita */
+    margin-right: .5rem;
+}
+
+.information .job::before {
+    background-image: url('/aulaAdiçãoDosIcones/imgs/person (1).svg');
+}
+
+.information .location::before {
+    background-image: url('/aulaAdiçãoDosIcones/imgs/location.svg');
+}
+
+.information .phone::before {
+    background-image: url('/aulaAdiçãoDosIcones/imgs/phone.svg');
+}
+
+.information .email::before {
+    background-image: url('/aulaAdiçãoDosIcones/imgs/email\ \(2\).svg');
+}
