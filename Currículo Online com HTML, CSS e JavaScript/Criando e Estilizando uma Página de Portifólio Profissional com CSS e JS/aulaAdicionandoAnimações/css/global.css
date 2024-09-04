@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+   background-color: #000;
+    color: #fff;
+}
+
+.main {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #fff;
+    border-radius: 1rem;
+}
+
+.main::before {
+    content: '';
+    background-image: url('/aulaEstruturaAcordeon/imgs/background.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    width: 140vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.main::after {
+    content: '';
+    background-image: url('/aulaEstruturaAcordeon/imgs/background.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    width: 140vw;
+    height: 100vh;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    transform: rotate(180deg);
+}
+
+
+@media only screen and (min-width:768px) {
+
+    .main {
+        max-width: 1024px;
+        margin: 1rem auto;
+    }
+
+    .main::before,
+    .main::after {
+        width: 70vw;
+    }
+
+
+}
