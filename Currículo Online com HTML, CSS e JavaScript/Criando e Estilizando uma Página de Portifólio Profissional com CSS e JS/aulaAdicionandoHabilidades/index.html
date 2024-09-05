@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" 
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
+
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/acordeon.css">
+    <link rel="stylesheet" href="css/languages.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/experience.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <title>Portifólio Sophya Damiazo</title>
+</head>
+
+<body>
+    <main class="main">
+        <header class="header">
+            <img src="imgs/my-photo.jpg" alt="" class="photo">
+    
+            <h1 class="title">
+                Olá,<br>eu sou a Sophya Damiazo
+            </h1>
+    
+            <div class="information">
+                <p class="job">Dev Front-End Jr</p>
+                <p class="location">Limeira,SP - BR</p>
+                <p class="phone">
+                   <a href="tel:(19) 9 9999-9999">(19) 9 9999-9999</a>
+                </p>
+                <p class="email">
+                    <a href="mailto:damiazosophya@gmail.com">damiazosophya@gmail.com</a>
+                </p>
+            </div>
+        </header>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Skills</h2>
+            </button>
+
+            <div class="content">
+                <div class="skills">
+                    <section class="tools">
+                        <h3>Ferramentas:</h3>
+                        <ul>
+                            <li>
+                                <img src="languages/js.svg" alt="JavaScript" title="JavaScript">
+                            </li>
+                            <li>
+                                <img src="languages/css.svg" alt="CSS" title="CSS">
+                            </li>
+                            <li>
+                                <img src="languages/github.svg" alt="GitHub" title="GitHub">
+                            </li>
+                            <li>
+                                <img src="languages/html.svg" alt="HTML" title="HTML">
+                            </li>
+                        </ul>
+                    </section>
+    
+                    <section class="personal">
+                        <h3>Pessoal:</h3>
+                        <ul>
+                            <li>Liderança</li>
+                            <li>Facilidade de comunicação</li>
+                            <li>Organização</li>
+                            <li>Trabaho em equipe</li>
+                            <li>Flexibilidade</li>
+                        </ul>
+                    </section>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Idiomas</h2>
+            </button>
+
+            <div class="content">
+                <ul class="languages">
+                    <li>Português</li>
+                     <li>Inglês</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+            <h2>Portifólio</h2>
+            </button>
+
+            <div class="content">
+                <ul class="portfolio">
+                    <li>
+                        <h3 class="title github">Criando uma Landing Page</h3>
+                        <a href="https://github.com/devsophya/First-Landing-Page" target="_blank">https://github.com/devsophya/First-Landing-Page"</a>
+                    </li>
+                    <li>
+                        <h3 class="title github">Formação JavaScript Developer</h3>
+                        <a href="https://github.com/devsophya/JavaScript-Developer-DIO" target="_blank">https://github.com/devsophya/JavaScript-Developer-DIO</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Experiência Profissional</h2>
+            </button>
+
+            <div class="content">
+                <ul class="experience">
+                    <li>
+                        <h3 class="title">Analista de Suporte Técnico</h3>
+                        <p class="period">Jun/2023 - Jun/2024</p>
+                        <p> Active Directory (AD): criação de usuário, bloqueio, reset de senha, movimentação de OU user e desk.
+                            Implantação do Google Workspace em clientes (Deployment). 
+                            Migração de documentos para Google Cloud.
+                            Suporte aos clientes para dúvidas e resoluções de troubleshoots.
+                            Captura de leads & venda dos serviços Google Workspace.</p>
+                        <a href=""></a>
+                    </li>
+                    <li>
+                        <h3 class="title">Estagiária de TI</h3>
+                        <p class="period">Jan/2023 - Jun/2023</p>
+                        <p>Prestação de suporte técnico aos usuários, resolvendo problemas e esclarecendo dúvidas sobre o funcionamento de sistemas e softwares utilizados pela empresa.
+                            Realização de diagnóstico e solução de falhas em hardware e software, garantindo a continuidade das operações diárias e minimizando o tempo de inatividade.</p>
+                        <a href=""></a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="js/acordeon.js"></script>
+</body>
+
+
+</html>
