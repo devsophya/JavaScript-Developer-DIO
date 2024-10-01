@@ -1,0 +1,23 @@
+:root {
+    background-color: #f0c9ea;
+    font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+}
+
+.orkut-font-color {
+    color: #e8258e;
+}
+
+.orkut-font-default{
+    color: rgb(43, 41, 41);
+}
+
+.orkut-link{
+    text-decoration: none;
+    font-weight: 550;
+}
+
+
+.orkut-button-bg {
+    background-color: #e8258e;
+    cursor: pointer;
+}

@@ -1,0 +1,250 @@
+header.menu {
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top:0 ;
+    left: 0;
+    cursor: auto !important;
+}
+
+/*  ### Desc - Friends ###  */
+.desc-friends {
+    width: 800px;
+    height: 800px;
+}
+
+.container {
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+}
+
+.container :not(:first-child) {
+    margin-top: 15px;
+}
+
+
+.photo,
+.description,
+.counter__friend,
+.counter__community{
+    border: 1px solid rgb(47, 48, 47);
+     width: 100%;
+     height: 300px;
+     background-color: #fff;
+     border-radius: 10px;
+}
+
+.photo {
+    height: 500px;
+    border-top-right-radius: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 350px;
+}
+
+.photo__avatar > img {
+    border-radius: 15px;
+}
+
+.photo__tools > div > i{
+    margin-right: 15px;
+}
+
+.phone__name > h1{
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+/*
+.photo > * {
+    border: 1px solid red;
+}
+*/
+
+.description {
+    height: 330px;
+    max-width: 770px;
+    padding: 2rem;
+}
+
+.counter__friend,
+.counter__community {
+    height: 350px;
+    width: 340px;
+}
+
+header > nav {
+    color: #fff;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > nav > #title > h1{
+    font-size: 50px;
+}
+
+header > nav > #hamburguer > label {
+    font-size: 30px;
+}
+
+
+.status {
+    display: flex;
+
+}
+
+.stats {
+    text-align: center;
+    margin: 0 10px !important; 
+}
+
+.icons-stats {
+    margin: 0 !important; 
+    text-align: center;
+}
+
+.icons-stats i {
+    color: #e8258e;
+}
+
+.visitantes .name {
+    color: #e8258e;
+    font-weight: 700;
+    text-decoration: dashed;
+}
+
+.dica {
+    padding: 5px;
+    background-color: lightgoldenrodyellow;
+}
+
+.color-dica {
+    color: red;
+    font-weight: 700;
+}
+
+.color-clique {
+    color: #4986cc;
+    cursor: pointer;
+    
+}
+
+.counter__friend {
+    padding: 2rem;
+}
+
+.color-numeros {
+    color: #e8258e;
+}
+
+.foto-amigo{
+    display: inline-block;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+.foto-amigo img {
+    height: 120px;
+    width: 100px;
+}
+
+.nome-amigo {
+    padding: 8px;
+    text-align: center;
+    color: #e8258e;
+    font-weight: 400;
+}
+
+.amigos {
+    color: #e8258e;
+    text-decoration: underline;
+}
+
+.btn-amgs { 
+    color: #e8258e;
+    text-decoration: none;
+    text-align: center;
+    border-radius: .6rem;
+    border: 1px solid rgb(36, 36, 36);
+    margin: 0 6px !important;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    
+}
+
+.counter__community {
+    padding: 2rem;
+}
+
+.comunidades{
+    display: inline-block;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+.foto-comunidade img {
+    height: 120px;
+    width: 100px;
+}
+
+.nome-comunidade {
+    padding: 8px;
+    text-align: center;
+    color: #e8258e;
+    font-weight: 400;
+}
+
+
+
+/*  ### New Friends ###  */
+.counter-new-friends {
+    height: 280px;
+    max-width: 770px;
+    padding: 2rem;
+    background-color: #fff;
+    margin-top: 3rem !important;
+    border: 1px solid rgb(47, 48, 47);
+    border-radius: 10px;
+}
+
+.pedidos {
+    background-color: #f0c9ea;
+    padding: 20px;
+}
+
+.pedidos img {
+    height: 80px;
+    width: 80px;
+}
+
+.pedido-amizade {
+    display: block;
+    margin-left: 1rem;
+}
+
+.color-pedido {
+    font-weight: 400;
+    color: #e8258e;
+}
+
+.color-info {
+    color:rgb(47, 48, 47);
+    font-weight: 500;
+}
+
+
+.pedido {
+    display: flex;
+}
